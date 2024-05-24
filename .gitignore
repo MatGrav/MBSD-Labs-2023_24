@@ -1,11 +1,13 @@
-# Ignora i file con estensione .slxc
+# Ignora i file con le seguenti estensioni
 *.slxc
-
-# Ignora i file con estensione .tmp
+*.elf
+*.eep
 *.tmp
 
-# Ignora la cartella slprj e tutto il suo contenuto
+# Ignora le cartelle/sottocartelle slprj e il loro contenuto
 slprj/
+controller_arduino_ert_rtw/
 
 # Ignora i file che iniziano con tilde (~)
 *~
+
