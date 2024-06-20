@@ -8,6 +8,9 @@
 slprj/
 controller_arduino_ert_rtw/
 
+slcov_output/
+
+
 # Ignora i file che iniziano con tilde (~)
 *~
 
