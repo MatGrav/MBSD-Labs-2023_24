@@ -6,19 +6,19 @@
 
 <item itemtype="TextComponent" CircId="TextComponent-38" mainComp="false" Show_id="false" Show_Val="false" Pos="-1416,-876" rotation="360" hflip="1" vflip="1" label="TextComponent-38" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Margin="5 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="8 _px" Fixed_Width="false" Text="AutomaticTransmissionState" />
 
-<item itemtype="TextComponent" CircId="TextComponent-37" mainComp="false" Show_id="false" Show_Val="false" Pos="-956,-1068" rotation="0" hflip="1" vflip="1" label="TextComponent-37" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Margin="5 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="8 _px" Fixed_Width="false" Text="VehicleSpeed" />
+<item itemtype="TextComponent" CircId="TextComponent-37" mainComp="false" Show_id="false" Show_Val="false" Pos="-844,-1064" rotation="0" hflip="1" vflip="1" label="TextComponent-37" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Margin="5 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="8 _px" Fixed_Width="false" Text="VehicleSpeed" />
 
-<item itemtype="TextComponent" CircId="TextComponent-36" mainComp="false" Show_id="false" Show_Val="false" Pos="-888,-1068" rotation="0" hflip="1" vflip="1" label="TextComponent-36" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Margin="5 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="8 _px" Fixed_Width="false" Text="AutomaticTransmissionSelectorState" />
+<item itemtype="TextComponent" CircId="TextComponent-36" mainComp="false" Show_id="false" Show_Val="false" Pos="-780,-1036" rotation="0" hflip="1" vflip="1" label="TextComponent-36" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Margin="5 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="8 _px" Fixed_Width="false" Text="AutomaticTransmissionSelectorState" />
 
-<item itemtype="Voltage Source" CircId="Voltage Source-33" mainComp="false" ShowProp="MaxValue" Show_id="false" Show_Val="true" Pos="-776,-972" rotation="0" hflip="1" vflip="1" label="Voltage Source-33" idLabPos="-40,-80" labelrot="0" valLabPos="-26,10" valLabRot="0" Running="true" Value_Volt="2.5 V" MaxValue="5 V" MinValue="0 V" />
+<item itemtype="Voltage Source" CircId="Voltage Source-33" mainComp="false" ShowProp="MaxValue" Show_id="false" Show_Val="true" Pos="-772,-892" rotation="0" hflip="1" vflip="1" label="Voltage Source-33" idLabPos="-40,-80" labelrot="0" valLabPos="-26,10" valLabRot="0" Running="true" Value_Volt="2.5 V" MaxValue="5 V" MinValue="0 V" />
 
-<item itemtype="Voltage Source" CircId="Voltage Source-32" mainComp="false" ShowProp="MaxValue" Show_id="false" Show_Val="true" Pos="-860,-1012" rotation="0" hflip="1" vflip="1" label="Voltage Source-32" idLabPos="-40,-80" labelrot="0" valLabPos="-26,10" valLabRot="0" Running="true" Value_Volt="3.505 V" MaxValue="5 V" MinValue="0 V" />
+<item itemtype="Voltage Source" CircId="Voltage Source-32" mainComp="false" ShowProp="MaxValue" Show_id="false" Show_Val="true" Pos="-752,-980" rotation="0" hflip="1" vflip="1" label="Voltage Source-32" idLabPos="-40,-80" labelrot="0" valLabPos="-26,10" valLabRot="0" Running="true" Value_Volt="4.365 V" MaxValue="5 V" MinValue="0 V" />
 
 <item itemtype="Resistor" CircId="Resistor-17" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-1224,-924" rotation="0" hflip="1" vflip="1" label="Resistor-17" idLabPos="-12,-20" labelrot="0" valLabPos="-10.4537,3.32573" valLabRot="0" Resistance="100 Ω" />
 
 <item itemtype="Led" CircId="Led-14" mainComp="false" Show_id="false" Show_Val="false" Pos="-1168,-924" rotation="-180" hflip="1" vflip="1" label="Led-14" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Color="Yellow" Grounded="false" Threshold="2.4 V" MaxCurrent="0.03 A" Resistance="0.6 Ω" />
 
-<item itemtype="Resistor" CircId="Resistor-10" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-1228,-812" rotation="0" hflip="1" vflip="1" label="Resistor-10" idLabPos="-12,-20" labelrot="0" valLabPos="-13.1497,3.21128" valLabRot="0" Resistance="100 Ω" />
+<item itemtype="Resistor" CircId="Resistor-10" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-1228,-780" rotation="0" hflip="1" vflip="1" label="Resistor-10" idLabPos="-12,-20" labelrot="0" valLabPos="-13.1497,3.21128" valLabRot="0" Resistance="100 Ω" />
 
 <item itemtype="Resistor" CircId="Resistor-8" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-1220,-900" rotation="0" hflip="1" vflip="1" label="Resistor-8" idLabPos="-12,-20" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="100 Ω" />
 
@@ -28,9 +28,9 @@
 <mainCompProps MainCompId="mega328-109" Frequency="16 MHz" Program="controller_arduino.hex" Auto_Load="true" saveEepr="true" eeprom="92,192,0,0,129,192,0,0,127,192,0,0,125,192,0,0,123,192,0,0,121,192,0,0,119,192,0,0,117,192,0,0,115,192,0,0,113,192,0,0,111,192,0,0,109,192,0,0,107,192,0,0,191,194,0,0,103,192,0,0,101,192,0,0,96,198,0,0,97,192,0,0,12,148,221,8,12,148,15,9,91,192,0,0,89,192,0,0,87,192,0,0,85,192,0,0,83,192,0,0,81,192,0,0,0,0,0,8,0,2,1,0,0,3,4,7,0,0,0,0,0,0,0,0,1,2,4,8,16,32,64,128,1,2,4,8,16,32,1,2,4,8,16,32,4,4,4,4,4,4,4,4,2,2,2,2,2,2,3,3,3,3,3,3,0,0,0,0,37,0,40,0,43,0,0,0,0,0,36,0,39,0,42,0,52,9,17,36,31,190,207,239,216,224,222,191,205,191,17,224,160,224,177,224,224,231,243,225,2,192,5,144,13,146,170,51,177,7,217,247,34,224,170,227,177,224,1,192,29,146,160,52,178,7,225,247,16,224,205,229,208,224,4,192,33,151,254,1,14,148,176,9,204,53,209,7,201,247,244,210,12,148,182,9,123,207,207,147,223,147,136,35,65,240,235,1,129,80,122,214,153,131,136,131,223,145,207,145,8,149,251,1,17,130,16,130,249,207,15,147,31,147,139,1,156,1,131,224,54,149,39,149,23,149,7,149,138,149,209,247,6,92,30,79,70,47,71,112,33,224,48,224,249,1,2,192,238,15,255,31,74,149,226,247,175,1,248,1,32,129,36,35,203,1,1,150,33,17,2,192,144,224,128,224,31,145,15,145,8,149,15,147,31,147,139,1,156,1,131,224,54,149,39,149,23,149,7,149,138,149,209,247,103,112,129,224,144,224,1,192,136,15,106,149,234,247,248,1,230,92,254,79,32,129,69,43,49,244,128,149,130,35,128,131,31,145,15,145,8,149,130,43,250,207,207,146,223,146,239,146,255,146,207,147,223,147,107,1,124,1,96,224,142,224,200,22,209,4,225,4,241,4,136,244,142,224,140,13,95,214,230,1,33,150,174,1,199,1,182,1,200,223,206,1,223,145,207,145,255,144,239,144,223,144,207,144,8,149,140,45,239,207,136,35,65,240,129,80,104,47,112,224,144,224,128,224,80,224,64,224,180,207,8,149,97,17,1,192,65,198,97,48,233,243,98,224,251,207,102,35,17,240,97,224,117,198,96,224,253,207,252,1,145,224,64,145,73,1,80,145,74,1,96,145,75,1,112,145,76,1,69,43,70,43,71,43,9,240,144,224,145,131,8,149,207,146,223,146,239,146,255,146,15,147,31,147,207,147,223,147,0,208,0,208,0,208,205,183,222,183,128,145,73,1,144,145,74,1,160,145,75,1,176,145,76,1,1,150,161,29,177,29,133,48,145,5,161,5,177,5,8,240,161,192,128,147,73,1,144,147,74,1,160,147,75,1,176,147,76,1,192,144,0,1,208,144,1,1,224,144,2,1,240,144,3,1,167,1,150,1,96,145,13,2,112,145,14,2,128,145,15,2,144,145,16,2,7,212,136,35,65,240,192,146,13,2,208,146,14,2,224,146,15,2,240,146,16,2,110,224,112,224,128,224,144,224,41,223,144,147,12,2,128,147,11,2,67,224,80,224,190,1,107,95,127,79,15,223,109,129,126,129,144,224,128,224,237,211,32,145,8,1,48,145,9,1,64,145,10,1,80,145,11,1,154,212,32,145,12,1,48,145,13,1,64,145,14,1,80,145,15,1,145,212,105,131,122,131,139,131,156,131,192,144,4,1,208,144,5,1,224,144,6,1,240,144,7,1,167,1,150,1,96,145,1,2,112,145,2,2,128,145,3,2,144,145,4,2,192,211,136,35,65,240,192,146,1,2,208,146,2,2,224,146,3,2,240,146,4,2,111,224,112,224,128,224,144,224,226,222,144,147,0,2,128,147,255,1,67,224,80,224,190,1,107,95,127,79,200,222,2,227,18,224,45,227,50,224,76,227,82,224,107,227,114,224,206,1,1,150,243,209,96,145,59,2,139,224,65,223,96,145,60,2,130,224,61,223,96,145,61,2,135,224,57,223,38,150,15,182,248,148,222,191,15,190,205,191,223,145,207,145,31,145,15,145,255,144,239,144,223,144,207,144,8,149,16,146,73,1,16,146,74,1,16,146,75,1,16,146,76,1,94,207,97,224,128,145,49,2,129,17,96,224,96,147,49,2,141,224,24,207,175,146,191,146,207,146,223,146,239,146,255,146,31,147,207,147,223,147,105,227,114,224," SerialMon="-1" />
 </item>
 
-<item itemtype="Voltage Source" CircId="Voltage Source-44" mainComp="false" ShowProp="MaxValue" Show_id="false" Show_Val="true" Pos="-928,-1012" rotation="0" hflip="1" vflip="1" label="Voltage Source-44" idLabPos="-40,-80" labelrot="0" valLabPos="-26,10" valLabRot="0" Running="true" Value_Volt="1 V" MaxValue="5 V" MinValue="0 V" />
+<item itemtype="Voltage Source" CircId="Voltage Source-44" mainComp="false" ShowProp="MaxValue" Show_id="false" Show_Val="true" Pos="-824,-1008" rotation="0" hflip="1" vflip="1" label="Voltage Source-44" idLabPos="-40,-80" labelrot="0" valLabPos="-26,10" valLabRot="0" Running="true" Value_Volt="1 V" MaxValue="5 V" MinValue="0 V" />
 
-<item itemtype="TextComponent" CircId="TextComponent-45" mainComp="false" Show_id="false" Show_Val="false" Pos="-824,-932" rotation="0" hflip="1" vflip="1" label="TextComponent-45" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Margin="5 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="8 _px" Fixed_Width="false" Text="ThrottlePedalPosition" />
+<item itemtype="TextComponent" CircId="TextComponent-45" mainComp="false" Show_id="false" Show_Val="false" Pos="-820,-852" rotation="0" hflip="1" vflip="1" label="TextComponent-45" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Margin="5 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="8 _px" Fixed_Width="false" Text="ThrottlePedalPosition" />
 
 <item itemtype="Resistor" CircId="Resistor-54" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-1224,-864" rotation="0" hflip="1" vflip="1" label="Resistor-54" idLabPos="-12,-20" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="100 Ω" />
 
@@ -44,15 +44,25 @@
 
 <item itemtype="TextComponent" CircId="TextComponent-62" mainComp="false" Show_id="false" Show_Val="false" Pos="-1292,-848" rotation="360" hflip="1" vflip="1" label="TextComponent-62" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Margin="5 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="4 _px" Fixed_Width="false" Text="LSB" />
 
-<item itemtype="TextComponent" CircId="TextComponent-63" mainComp="false" Show_id="false" Show_Val="false" Pos="-1304,-820" rotation="0" hflip="1" vflip="1" label="TextComponent-63" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Margin="5 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="8 _px" Fixed_Width="false" Text="Blinker" />
+<item itemtype="TextComponent" CircId="TextComponent-63" mainComp="false" Show_id="false" Show_Val="false" Pos="-1304,-788" rotation="0" hflip="1" vflip="1" label="TextComponent-63" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Margin="5 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="8 _px" Fixed_Width="false" Text="Blinker" />
 
 <item itemtype="Fixed Voltage" CircId="Fixed Voltage-65" mainComp="false" Show_id="false" Show_Val="false" Pos="-1252,-968" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-65" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="true" />
 
 <item itemtype="Resistor" CircId="Resistor-70" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-1156,-968" rotation="0" hflip="1" vflip="1" label="Resistor-70" idLabPos="-12,-20" labelrot="0" valLabPos="-16,5.45891" valLabRot="0" Resistance="100 Ω" />
 
-<item itemtype="Led" CircId="Led-71" mainComp="false" Show_id="false" Show_Val="false" Pos="-1172,-812" rotation="-180" hflip="1" vflip="1" label="Led-71" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Color="Yellow" Grounded="false" Threshold="2.4 V" MaxCurrent="0.03 A" Resistance="0.6 Ω" />
+<item itemtype="Led" CircId="Led-71" mainComp="false" Show_id="false" Show_Val="false" Pos="-1172,-780" rotation="-180" hflip="1" vflip="1" label="Led-71" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Color="Yellow" Grounded="false" Threshold="2.4 V" MaxCurrent="0.03 A" Resistance="0.6 Ω" />
 
 <item itemtype="Switch" CircId="Switch-74" mainComp="false" Show_id="false" Show_Val="false" Pos="-1216,-968" rotation="0" hflip="1" vflip="1" label="Switch-74" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1" />
+
+<item itemtype="Voltage Source" CircId="Voltage Source-86" mainComp="false" ShowProp="MaxValue" Show_id="false" Show_Val="true" Pos="-900,-1064" rotation="0" hflip="1" vflip="1" label="Voltage Source-86" idLabPos="-40,-80" labelrot="0" valLabPos="-26,10" valLabRot="0" Running="true" Value_Volt="5 V" MaxValue="5 V" MinValue="0 V" />
+
+<item itemtype="TextComponent" CircId="TextComponent-87" mainComp="false" Show_id="false" Show_Val="false" Pos="-948,-1024" rotation="0" hflip="1" vflip="1" label="TextComponent-87" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Margin="5 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="8 _px" Fixed_Width="false" Text="ThrottlePedalPosition&#xa;Redundancy" />
+
+<item itemtype="Led" CircId="Led-97" mainComp="false" Show_id="false" Show_Val="false" Pos="-1172,-812" rotation="-180" hflip="1" vflip="1" label="Led-97" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Color="Yellow" Grounded="false" Threshold="2.4 V" MaxCurrent="0.03 A" Resistance="0.6 Ω" />
+
+<item itemtype="Resistor" CircId="Resistor-98" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-1228,-812" rotation="0" hflip="1" vflip="1" label="Resistor-98" idLabPos="-12,-20" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="100 Ω" />
+
+<item itemtype="TextComponent" CircId="TextComponent-100" mainComp="false" Show_id="false" Show_Val="false" Pos="-1308,-820" rotation="0" hflip="1" vflip="1" label="TextComponent-100" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Margin="5 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="8 _px" Fixed_Width="false" Text="Warning" />
 
 <item itemtype="Node" CircId="Node-27" mainComp="false" Pos="-1264,-900" />
 
@@ -60,17 +70,15 @@
 
 <item itemtype="Node" CircId="Node-72" mainComp="false" Pos="-1264,-840" />
 
-<item itemtype="Node" CircId="Node-73" mainComp="false" Pos="-1264,-812" />
+<item itemtype="Node" CircId="Node-96" mainComp="false" Pos="-1264,-780" />
+
+<item itemtype="Node" CircId="Node-99" mainComp="false" Pos="-1264,-812" />
 
 <item itemtype="Connector" uid="Connector-19" startpinid="Resistor-17-rPin" endpinid="Led-14-rPin" pointList="-1208,-924,-1184,-924" />
 
 <item itemtype="Connector" uid="Connector-20" startpinid="Resistor-8-rPin" endpinid="Led-6-rPin" pointList="-1204,-900,-1188,-900" />
 
 <item itemtype="Connector" uid="Connector-26" startpinid="Resistor-8-lPin" endpinid="Node-27-1" pointList="-1236,-900,-1264,-900" />
-
-<item itemtype="Connector" uid="Connector-43" startpinid="Voltage Source-32-outPin" endpinid="Uno-2-A2" pointList="-832,-996,-832,-964,-964,-964" />
-
-<item itemtype="Connector" uid="Connector-44" startpinid="Voltage Source-44-outPin" endpinid="Uno-2-A3" pointList="-900,-996,-900,-972,-964,-972" />
 
 <item itemtype="Connector" uid="Connector-56" startpinid="Led-14-lPin" endpinid="Uno-2-8" pointList="-1152,-924,-1108,-924,-1108,-916" />
 
@@ -96,20 +104,34 @@
 
 <item itemtype="Connector" uid="Connector-90" startpinid="Node-72-2" endpinid="Node-56-0" pointList="-1264,-840,-1264,-864" />
 
-<item itemtype="Connector" uid="Connector-95" startpinid="Resistor-10-rPin" endpinid="Led-71-rPin" pointList="-1212,-812,-1188,-812" />
+<item itemtype="Connector" uid="Connector-95" startpinid="Resistor-10-rPin" endpinid="Led-71-rPin" pointList="-1212,-780,-1188,-780" />
 
-<item itemtype="Connector" uid="Connector-98" startpinid="Node-72-1" endpinid="Node-73-0" pointList="-1264,-840,-1264,-812" />
+<item itemtype="Connector" uid="Connector-96" startpinid="Led-71-lPin" endpinid="Uno-2-13" pointList="-1156,-780,-1128,-780,-1128,-876,-1108,-876" />
 
-<item itemtype="Connector" uid="Connector-99" startpinid="Node-73-2" endpinid="Resistor-10-lPin" pointList="-1264,-812,-1244,-812" />
-
-<item itemtype="Connector" uid="Connector-96" startpinid="Led-71-lPin" endpinid="Uno-2-13" pointList="-1156,-812,-1128,-812,-1128,-876,-1108,-876" />
-
-<item itemtype="Connector" uid="Connector-97" startpinid="Node-73-1" endpinid="Uno-2-GND2" pointList="-1264,-812,-1264,-780,-1124,-780,-1124,-868,-1108,-868" />
-
-<item itemtype="Connector" uid="Connector-173" startpinid="Voltage Source-33-outPin" endpinid="Uno-2-A1" pointList="-748,-956,-748,-940,-832,-940,-832,-956,-964,-956" />
+<item itemtype="Connector" uid="Connector-173" startpinid="Voltage Source-33-outPin" endpinid="Uno-2-A1" pointList="-744,-876,-744,-860,-828,-860,-828,-956,-964,-956" />
 
 <item itemtype="Connector" uid="Connector-174" startpinid="Switch-74-pinP0" endpinid="Fixed Voltage-65-outnod" pointList="-1232,-968,-1236,-968" />
 
 <item itemtype="Connector" uid="Connector-176" startpinid="Switch-74-switch0pinN" endpinid="Resistor-70-lPin" pointList="-1200,-968,-1172,-968" />
+
+<item itemtype="Connector" uid="Connector-44" startpinid="Voltage Source-44-outPin" endpinid="Uno-2-A3" pointList="-796,-992,-796,-972,-964,-972" />
+
+<item itemtype="Connector" uid="Connector-216" startpinid="Voltage Source-32-outPin" endpinid="Uno-2-A2" pointList="-724,-964,-724,-924,-796,-924,-796,-964,-964,-964" />
+
+<item itemtype="Connector" uid="Connector-218" startpinid="Voltage Source-86-outPin" endpinid="Uno-2-A4" pointList="-872,-1048,-856,-1048,-856,-980,-964,-980" />
+
+<item itemtype="Connector" uid="Connector-250" startpinid="Resistor-10-lPin" endpinid="Node-96-1" pointList="-1244,-780,-1264,-780" />
+
+<item itemtype="Connector" uid="Connector-252" startpinid="Node-96-2" endpinid="Uno-2-GND2" pointList="-1264,-780,-1264,-760,-1124,-760,-1124,-868,-1108,-868" />
+
+<item itemtype="Connector" uid="Connector-254" startpinid="Resistor-98-rPin" endpinid="Led-97-rPin" pointList="-1212,-812,-1188,-812" />
+
+<item itemtype="Connector" uid="Connector-255" startpinid="Led-97-lPin" endpinid="Uno-2-12" pointList="-1156,-812,-1132,-812,-1132,-884,-1108,-884" />
+
+<item itemtype="Connector" uid="Connector-256" startpinid="Resistor-98-lPin" endpinid="Node-99-1" pointList="-1244,-812,-1264,-812" />
+
+<item itemtype="Connector" uid="Connector-257" startpinid="Node-72-1" endpinid="Node-99-0" pointList="-1264,-840,-1264,-812" />
+
+<item itemtype="Connector" uid="Connector-258" startpinid="Node-99-2" endpinid="Node-96-0" pointList="-1264,-812,-1264,-780" />
 
 </circuit>
