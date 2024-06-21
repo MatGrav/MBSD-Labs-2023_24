@@ -11,7 +11,7 @@
 <a name="slvnv_simcoverage_cvhtml_tableofcontents"></a><h2>Table of Contents</h2>
 <ol>
 	<li><a href="#slvnv_simcoverage_cvhtml_analysisinformation">Analysis Information</a></li>
-	<li><a href="#slvnv_simcoverage_cvhtml_tests">Tests</a></li>
+	<li><a href="#slvnv_simcoverage_cvhtml_aggregatedtests">Aggregated Tests</a></li>
 	<li><a href="#slvnv_simcoverage_cvhtml_summary">Summary</a></li>
 	<li><a href="#slvnv_simcoverage_cvhtml_details">Details</a></li>
 </ol>
@@ -32,7 +32,7 @@
 
   <tr> 
      <td  width="300" align="left"> &#160; Model version </td>
-     <td  width="300" align="left"> &#160; 5.104 </td>
+     <td  width="300" align="left"> &#160; 5.112 </td>
 </tr>
 
   <tr> 
@@ -42,7 +42,7 @@
 
   <tr> 
      <td  align="left"> &#160; Last saved </td>
-     <td  align="left"> &#160; Thu Jun 20 18:02:03 2024 </td>
+     <td  align="left"> &#160; Fri Jun 21 12:47:20 2024 </td>
 </tr>
 
 </table>
@@ -87,7 +87,7 @@
 
   <tr> 
      <td  width="300" align="left"> &#160; Analyzed model </td>
-     <td  width="300" align="left"> &#160; controller_Harness_PedalPosition/ThrottlePedalSafety  </td>
+     <td  width="300" align="left"> &#160; controller/ThrottlePedalSafety  </td>
 </tr>
 
   <tr> 
@@ -96,20 +96,30 @@
 </tr>
 
 </table>
-<a name="slvnv_simcoverage_cvhtml_tests"></a><h2>Tests</h2>
+<a name="slvnv_simcoverage_cvhtml_aggregatedtests"></a><h3>Aggregated Tests</h3>
 
-<table border="0" cellpadding="5" >
+<table border="1" cellpadding="5" >
 
   <tr> 
-     <td  align="left"> <b> Test </b> </td>
-     <td  align="left"> <b> Started execution </b> </td>
-     <td  align="left"> <b> Ended execution </b> </td>
+     <td  align="left"> <b> Run </b> </td>
+     <td  align="left"> <b> Test Name </b> </td>
+     <td  align="left"> <b> Date </b> </td>
 </tr>
 
   <tr> 
-     <td  align="left"> <a title="Open in Results Explorer" href="matlab: cvi.ReportUtils.reportContextCallBack('run', 'bb3eb746-afb9-4ed2-b69d-9e435461cf06', 'RE', 'controller_Harness_PedalPosition');">Run 2</a> </td>
-     <td  align="left"> 20-Jun-2024 18:05:27 </td>
-     <td  align="left"> 20-Jun-2024 18:05:27 </td>
+     <td  colspan="3"> <b><a name="TBD"></a><b>Subsystem: "/ThrottlePedalSafety "</b></b> </td>
+</tr>
+
+  <tr> 
+     <td  align="left"> <a name="ref_trace_U1.1">U1.1</a> </td>
+     <td  align="left"> <a title="Open in Results Explorer" href="matlab: cvi.ReportUtils.reportContextCallBack('run', '7c42c829-cc7f-4d34-acd2-0b8e2e7e06c3', 'RE', 'controller_Harness_PedalPosition');">Run 1</a> </td>
+     <td  align="left"> 21-Jun-2024 12:58:04 </td>
+</tr>
+
+  <tr> 
+     <td  align="left"> <a name="ref_trace_U1.2">U1.2</a> </td>
+     <td  align="left"> <a title="Open in Results Explorer" href="matlab: cvi.ReportUtils.reportContextCallBack('run', '4611a5e9-5755-4168-a519-79e9a38255bf', 'RE', 'controller_Harness_PedalPosition');">Run 2</a> </td>
+     <td  align="left"> 21-Jun-2024 12:58:43 </td>
 </tr>
 
 </table>
@@ -120,19 +130,20 @@
 
   <tr> 
      <td  colspan="2">  <font size="2"> <b>Model Hierarchy/Complexity</b></font> </td>
-     <td  colspan="2">  <font size="2"> <b><a title="Open in Results Explorer" href="matlab: cvi.ReportUtils.reportContextCallBack('run', 'bb3eb746-afb9-4ed2-b69d-9e435461cf06', 'RE', 'controller_Harness_PedalPosition');">Run 2</a></b></font> </td>
+     <td  colspan="4">  <font size="2"> <b></b></font> </td>
      <td  align="center">  <font size="2"> &#160;</font> </td>
 </tr>
 
   <tr> 
      <td  align="center">  <font size="2">  </font> </td>
      <td  align="center">  <font size="2">  </font> </td>
+     <td  colspan="2">  <font size="2"> <b>Decision</b></font> </td>
      <td  colspan="2">  <font size="2"> <b>Execution</b></font> </td>
      <td  align="center">  <font size="2"> &#160;</font> </td>
 </tr>
 
   <tr> 
-     <td  align="left">  <font size="2"> 1. <a href="#refobj1847"> ThrottlePedalSafety </a></font> </td>
+     <td  align="left">  <font size="2"> 1. <a href="#refobj1248"> ThrottlePedalSafety </a></font> </td>
      <td  align="center">  <font size="2"> 3</font> </td>
      <td  align="center">  <font size="2"> 100%</font> </td>
      <td  align="center"> 
@@ -143,13 +154,23 @@
    <td></td>
    <td>&#160;</td></tr>
 </table> </td>
+     <td  align="center">  <font size="2"> 100%</font> </td>
+     <td  align="center"> 
+<table cellpadding="0" cellspacing="0">
+<tr>
+   <td>&#160;</td>
+   <td><img src="scv_images/blue.gif" width="50" height="6" border="0"></img></td>
+   <td></td>
+   <td>&#160;</td></tr>
+</table> </td>
      <td  align="center">  <font size="2"> &#160;</font> </td>
 </tr>
 
   <tr> 
-     <td  align="left">  <font size="2"> 2.  . . . <a href="#refobj1848"> Compare
+     <td  align="left">  <font size="2"> 2.  . . . <a href="#refobj1249"> Compare
 To Constant</a></font> </td>
      <td  align="center">  <font size="2"> &#160;</font> </td>
+     <td  colspan="2">  <font size="2"> NA</font> </td>
      <td  align="center">  <font size="2"> 100%</font> </td>
      <td  align="center"> 
 <table cellpadding="0" cellspacing="0">
@@ -163,9 +184,10 @@ To Constant</a></font> </td>
 </tr>
 
   <tr> 
-     <td  align="left">  <font size="2"> 3.  . . . <a href="#refobj1849"> Compare
+     <td  align="left">  <font size="2"> 3.  . . . <a href="#refobj1250"> Compare
 To Constant1</a></font> </td>
      <td  align="center">  <font size="2"> &#160;</font> </td>
+     <td  colspan="2">  <font size="2"> NA</font> </td>
      <td  align="center">  <font size="2"> 100%</font> </td>
      <td  align="center"> 
 <table cellpadding="0" cellspacing="0">
@@ -179,9 +201,10 @@ To Constant1</a></font> </td>
 </tr>
 
   <tr> 
-     <td  align="left">  <font size="2"> 4.  . . . <a href="#refobj1850"> Compare
+     <td  align="left">  <font size="2"> 4.  . . . <a href="#refobj1251"> Compare
 To Constant2</a></font> </td>
      <td  align="center">  <font size="2"> &#160;</font> </td>
+     <td  colspan="2">  <font size="2"> NA</font> </td>
      <td  align="center">  <font size="2"> 100%</font> </td>
      <td  align="center"> 
 <table cellpadding="0" cellspacing="0">
@@ -195,9 +218,10 @@ To Constant2</a></font> </td>
 </tr>
 
   <tr> 
-     <td  align="left">  <font size="2"> 5.  . . . <a href="#refobj1851"> Compare
+     <td  align="left">  <font size="2"> 5.  . . . <a href="#refobj1252"> Compare
 To Constant3</a></font> </td>
      <td  align="center">  <font size="2"> &#160;</font> </td>
+     <td  colspan="2">  <font size="2"> NA</font> </td>
      <td  align="center">  <font size="2"> 100%</font> </td>
      <td  align="center"> 
 <table cellpadding="0" cellspacing="0">
@@ -211,9 +235,10 @@ To Constant3</a></font> </td>
 </tr>
 
   <tr> 
-     <td  align="left">  <font size="2"> 6.  . . . <a href="#refobj1852"> Compare
+     <td  align="left">  <font size="2"> 6.  . . . <a href="#refobj1253"> Compare
 To Constant4</a></font> </td>
      <td  align="center">  <font size="2"> &#160;</font> </td>
+     <td  colspan="2">  <font size="2"> NA</font> </td>
      <td  align="center">  <font size="2"> 100%</font> </td>
      <td  align="center"> 
 <table cellpadding="0" cellspacing="0">
@@ -228,11 +253,11 @@ To Constant4</a></font> </td>
 
 </table>
 <a name="slvnv_simcoverage_cvhtml_details"></a><h2>Details</h2>
-<a name="refobj1847">  </a><h3>1. SubSystem block "<a href="matlab: cvdisplay('controller_Harness_PedalPosition:1');">ThrottlePedalSafety </a>"</h3>
+<a name="refobj1248">  </a><h3>1. SubSystem block "<a href="matlab: cvdisplay('controller_Harness_PedalPosition:1');">ThrottlePedalSafety </a>"</h3>
 <table> <tr> <td width="25"> </td> <td>
 <table>
   <tr align="top"><td width="150"><b>Child Systems: </b></td>
-      <td><a href="#refobj1848">Compare To Constant</a>, &#160;<a href="#refobj1849">Compare To Constant1</a>, &#160;<a href="#refobj1850">Compare To Constant2</a>, &#160;<a href="#refobj1851">Compare To Constant3</a>, &#160;<a href="#refobj1852">Compare To Constant4</a></td></tr>
+      <td><a href="#refobj1249">Compare To Constant</a>, &#160;<a href="#refobj1250">Compare To Constant1</a>, &#160;<a href="#refobj1251">Compare To Constant2</a>, &#160;<a href="#refobj1252">Compare To Constant3</a>, &#160;<a href="#refobj1253">Compare To Constant4</a></td></tr>
 </table>
 <br/>
 
@@ -243,6 +268,18 @@ To Constant4</a></font> </td>
      <td  width="200" align="left"> <b>Metric</b> </td>
      <td  width="200" align="left"> <b>Coverage (this object)</b> </td>
      <td  width="200" align="left"> <b>Coverage (inc. descendants)</b> </td>
+</tr>
+
+  <tr> 
+     <td  align="left"> Cyclomatic Complexity </td>
+     <td  align="left"> 1 </td>
+     <td  align="left"> 3 </td>
+</tr>
+
+  <tr> 
+     <td  align="left"> Decision </td>
+     <td  align="left"> NA </td>
+     <td  align="left"> 100% (4/4) decision outcomes </td>
 </tr>
 
   <tr> 
@@ -254,13 +291,13 @@ To Constant4</a></font> </td>
 </table>
 </td> </tr> </table>
 <br/>
-<a name="refobj1854">  </a><h4> &#160; &#160;Abs block "<a href="matlab: cvdisplay('controller_Harness_PedalPosition:1:171');">Abs</a>"</h4>
+<a name="refobj1255">  </a><h4> &#160; &#160;Abs block "<a href="matlab: cvdisplay('controller_Harness_PedalPosition:1:171');">Abs</a>"</h4>
 <table> <tr> <td width="25"> </td> <td>
-<table><tr> <td> <a href="matlab: cvi.FilterExplorer.FilterExplorer.reportRuleCallback('', [], 459,  '', 'controller_Harness_PedalPosition', '', 'add', 'controller:171');">Justify or Exclude</a> </td></tr>
+<table><tr> <td> <a href="matlab: cvi.FilterExplorer.FilterExplorer.reportRuleCallback('', [], 0,  '', 'controller_Harness_PedalPosition', '', 'add', 'controller_Harness_PedalPosition:1:171');">Justify or Exclude</a> </td></tr>
 </table>
 <table>
   <tr><td width="150"><b>Parent: </b></td>
-      <td><a href="#refobj1847">controller_Harness_PedalPosition/ThrottlePedalSafety </a></td></tr>
+      <td><a href="#refobj1248">controller_Harness_PedalPosition/ThrottlePedalSafety </a></td></tr>
 </table>
 <br/>
 
@@ -270,6 +307,82 @@ To Constant4</a></font> </td>
   <tr> 
      <td  width="200" align="left"> <b>Metric</b> </td>
      <td  width="200" align="left"> <b>Coverage</b> </td>
+</tr>
+
+  <tr> 
+     <td  align="left"> Cyclomatic Complexity </td>
+     <td  align="left"> 1 </td>
+</tr>
+
+  <tr> 
+     <td  align="left"> Decision </td>
+     <td  align="left"> 100% (2/2) decision outcomes </td>
+</tr>
+
+  <tr> 
+     <td  align="left"> Execution </td>
+     <td  align="left"> 100% (1/1) objective outcomes </td>
+</tr>
+
+</table>
+&#160; <b>Decisions analyzed</b><br/>
+
+<table border="1" cellpadding="5">
+
+  <tr> 
+     <td  width="380" align="left"> &#160; input &lt; 0&#160;  </td>
+     <td  width="60" align="center"> 100% </td>
+</tr>
+
+  <tr> 
+     <td  align="left"> &#160; &#160; &#160; false </td>
+     <td  align="center"> 2004/2602<a href="#ref_trace_U1.1"><div  title="Executed in test(s): &#13;U1.1,U1.2"/><small>U1.1</small></a> </td>
+</tr>
+
+  <tr> 
+     <td  align="left"> &#160; &#160; &#160; true </td>
+     <td  align="center"> 598/2602<a href="#ref_trace_U1.1"><div  title="Executed in test(s): &#13;U1.1,U1.2"/><small>U1.1</small></a> </td>
+</tr>
+
+</table>
+&#160; <b>Execution analyzed</b><br/>
+
+<table border="1" cellpadding="5">
+
+  <tr> 
+     <td  width="380" align="left"> &#160; Block executed&#160;  </td>
+     <td  width="60" align="center"> 100% </td>
+</tr>
+
+  <tr> 
+     <td  align="left"> &#160; &#160; &#160;  </td>
+     <td  align="center"> 2602/2602<a href="#ref_trace_U1.1"><div  title="Executed in test(s): &#13;U1.1,U1.2"/><small>U1.1</small></a> </td>
+</tr>
+
+</table>
+</td> </tr> </table>
+<br/>
+<a name="refobj1257">  </a><h4> &#160; &#160;Logic block "<a href="matlab: cvdisplay('controller_Harness_PedalPosition:1:180');">OR</a>"</h4>
+<table> <tr> <td width="25"> </td> <td>
+<table><tr> <td> <a href="matlab: cvi.FilterExplorer.FilterExplorer.reportRuleCallback('', [], 0,  '', 'controller_Harness_PedalPosition', '', 'add', 'controller_Harness_PedalPosition:1:180');">Justify or Exclude</a> </td></tr>
+</table>
+<table>
+  <tr><td width="150"><b>Parent: </b></td>
+      <td><a href="#refobj1248">controller_Harness_PedalPosition/ThrottlePedalSafety </a></td></tr>
+</table>
+<br/>
+
+
+<table >
+
+  <tr> 
+     <td  width="200" align="left"> <b>Metric</b> </td>
+     <td  width="200" align="left"> <b>Coverage</b> </td>
+</tr>
+
+  <tr> 
+     <td  align="left"> Cyclomatic Complexity </td>
+     <td  align="left"> 0 </td>
 </tr>
 
   <tr> 
@@ -289,19 +402,19 @@ To Constant4</a></font> </td>
 
   <tr> 
      <td  align="left"> &#160; &#160; &#160;  </td>
-     <td  align="center"> 1301/1301 </td>
+     <td  align="center"> 2602/2602<a href="#ref_trace_U1.1"><div  title="Executed in test(s): &#13;U1.1,U1.2"/><small>U1.1</small></a> </td>
 </tr>
 
 </table>
 </td> </tr> </table>
 <br/>
-<a name="refobj1856">  </a><h4> &#160; &#160;Logic block "<a href="matlab: cvdisplay('controller_Harness_PedalPosition:1:180');">OR</a>"</h4>
+<a name="refobj1258">  </a><h4> &#160; &#160;Logic block "<a href="matlab: cvdisplay('controller_Harness_PedalPosition:1:183');">OR1</a>"</h4>
 <table> <tr> <td width="25"> </td> <td>
-<table><tr> <td> <a href="matlab: cvi.FilterExplorer.FilterExplorer.reportRuleCallback('', [], 459,  '', 'controller_Harness_PedalPosition', '', 'add', 'controller:180');">Justify or Exclude</a> </td></tr>
+<table><tr> <td> <a href="matlab: cvi.FilterExplorer.FilterExplorer.reportRuleCallback('', [], 0,  '', 'controller_Harness_PedalPosition', '', 'add', 'controller_Harness_PedalPosition:1:183');">Justify or Exclude</a> </td></tr>
 </table>
 <table>
   <tr><td width="150"><b>Parent: </b></td>
-      <td><a href="#refobj1847">controller_Harness_PedalPosition/ThrottlePedalSafety </a></td></tr>
+      <td><a href="#refobj1248">controller_Harness_PedalPosition/ThrottlePedalSafety </a></td></tr>
 </table>
 <br/>
 
@@ -311,6 +424,11 @@ To Constant4</a></font> </td>
   <tr> 
      <td  width="200" align="left"> <b>Metric</b> </td>
      <td  width="200" align="left"> <b>Coverage</b> </td>
+</tr>
+
+  <tr> 
+     <td  align="left"> Cyclomatic Complexity </td>
+     <td  align="left"> 0 </td>
 </tr>
 
   <tr> 
@@ -330,19 +448,19 @@ To Constant4</a></font> </td>
 
   <tr> 
      <td  align="left"> &#160; &#160; &#160;  </td>
-     <td  align="center"> 1301/1301 </td>
+     <td  align="center"> 2602/2602<a href="#ref_trace_U1.1"><div  title="Executed in test(s): &#13;U1.1,U1.2"/><small>U1.1</small></a> </td>
 </tr>
 
 </table>
 </td> </tr> </table>
 <br/>
-<a name="refobj1857">  </a><h4> &#160; &#160;Logic block "<a href="matlab: cvdisplay('controller_Harness_PedalPosition:1:183');">OR1</a>"</h4>
+<a name="refobj1259">  </a><h4> &#160; &#160;Logic block "<a href="matlab: cvdisplay('controller_Harness_PedalPosition:1:185');">OR2</a>"</h4>
 <table> <tr> <td width="25"> </td> <td>
-<table><tr> <td> <a href="matlab: cvi.FilterExplorer.FilterExplorer.reportRuleCallback('', [], 459,  '', 'controller_Harness_PedalPosition', '', 'add', 'controller:183');">Justify or Exclude</a> </td></tr>
+<table><tr> <td> <a href="matlab: cvi.FilterExplorer.FilterExplorer.reportRuleCallback('', [], 0,  '', 'controller_Harness_PedalPosition', '', 'add', 'controller_Harness_PedalPosition:1:185');">Justify or Exclude</a> </td></tr>
 </table>
 <table>
   <tr><td width="150"><b>Parent: </b></td>
-      <td><a href="#refobj1847">controller_Harness_PedalPosition/ThrottlePedalSafety </a></td></tr>
+      <td><a href="#refobj1248">controller_Harness_PedalPosition/ThrottlePedalSafety </a></td></tr>
 </table>
 <br/>
 
@@ -352,6 +470,11 @@ To Constant4</a></font> </td>
   <tr> 
      <td  width="200" align="left"> <b>Metric</b> </td>
      <td  width="200" align="left"> <b>Coverage</b> </td>
+</tr>
+
+  <tr> 
+     <td  align="left"> Cyclomatic Complexity </td>
+     <td  align="left"> 0 </td>
 </tr>
 
   <tr> 
@@ -371,19 +494,19 @@ To Constant4</a></font> </td>
 
   <tr> 
      <td  align="left"> &#160; &#160; &#160;  </td>
-     <td  align="center"> 1301/1301 </td>
+     <td  align="center"> 2602/2602<a href="#ref_trace_U1.1"><div  title="Executed in test(s): &#13;U1.1,U1.2"/><small>U1.1</small></a> </td>
 </tr>
 
 </table>
 </td> </tr> </table>
 <br/>
-<a name="refobj1858">  </a><h4> &#160; &#160;Logic block "<a href="matlab: cvdisplay('controller_Harness_PedalPosition:1:185');">OR2</a>"</h4>
+<a name="refobj1261">  </a><h4> &#160; &#160;Switch block "<a href="matlab: cvdisplay('controller_Harness_PedalPosition:1:172');">Switch</a>"</h4>
 <table> <tr> <td width="25"> </td> <td>
-<table><tr> <td> <a href="matlab: cvi.FilterExplorer.FilterExplorer.reportRuleCallback('', [], 459,  '', 'controller_Harness_PedalPosition', '', 'add', 'controller:185');">Justify or Exclude</a> </td></tr>
+<table><tr> <td> <a href="matlab: cvi.FilterExplorer.FilterExplorer.reportRuleCallback('', [], 0,  '', 'controller_Harness_PedalPosition', '', 'add', 'controller_Harness_PedalPosition:1:172');">Justify or Exclude</a> </td></tr>
 </table>
 <table>
   <tr><td width="150"><b>Parent: </b></td>
-      <td><a href="#refobj1847">controller_Harness_PedalPosition/ThrottlePedalSafety </a></td></tr>
+      <td><a href="#refobj1248">controller_Harness_PedalPosition/ThrottlePedalSafety </a></td></tr>
 </table>
 <br/>
 
@@ -393,6 +516,82 @@ To Constant4</a></font> </td>
   <tr> 
      <td  width="200" align="left"> <b>Metric</b> </td>
      <td  width="200" align="left"> <b>Coverage</b> </td>
+</tr>
+
+  <tr> 
+     <td  align="left"> Cyclomatic Complexity </td>
+     <td  align="left"> 1 </td>
+</tr>
+
+  <tr> 
+     <td  align="left"> Decision </td>
+     <td  align="left"> 100% (2/2) decision outcomes </td>
+</tr>
+
+  <tr> 
+     <td  align="left"> Execution </td>
+     <td  align="left"> 100% (1/1) objective outcomes </td>
+</tr>
+
+</table>
+&#160; <b>Decisions analyzed</b><br/>
+
+<table border="1" cellpadding="5">
+
+  <tr> 
+     <td  width="380" align="left"> &#160; logical trigger input&#160;  </td>
+     <td  width="60" align="center"> 100% </td>
+</tr>
+
+  <tr> 
+     <td  align="left"> &#160; &#160; &#160; false (output is from 3rd input port) </td>
+     <td  align="center"> 1272/2602<a href="#ref_trace_U1.1"><div  title="Executed in test(s): &#13;U1.1,U1.2"/><small>U1.1</small></a> </td>
+</tr>
+
+  <tr> 
+     <td  align="left"> &#160; &#160; &#160; true (output is from 1st input port) </td>
+     <td  align="center"> 1330/2602<a href="#ref_trace_U1.1"><div  title="Executed in test(s): &#13;U1.1,U1.2"/><small>U1.1</small></a> </td>
+</tr>
+
+</table>
+&#160; <b>Execution analyzed</b><br/>
+
+<table border="1" cellpadding="5">
+
+  <tr> 
+     <td  width="380" align="left"> &#160; Block executed&#160;  </td>
+     <td  width="60" align="center"> 100% </td>
+</tr>
+
+  <tr> 
+     <td  align="left"> &#160; &#160; &#160;  </td>
+     <td  align="center"> 2602/2602<a href="#ref_trace_U1.1"><div  title="Executed in test(s): &#13;U1.1,U1.2"/><small>U1.1</small></a> </td>
+</tr>
+
+</table>
+</td> </tr> </table>
+<br/>
+<a name="refobj1263">  </a><h4> &#160; &#160;Sum block "<a href="matlab: cvdisplay('controller_Harness_PedalPosition:1:170');">Subtract</a>"</h4>
+<table> <tr> <td width="25"> </td> <td>
+<table><tr> <td> <a href="matlab: cvi.FilterExplorer.FilterExplorer.reportRuleCallback('', [], 0,  '', 'controller_Harness_PedalPosition', '', 'add', 'controller_Harness_PedalPosition:1:170');">Justify or Exclude</a> </td></tr>
+</table>
+<table>
+  <tr><td width="150"><b>Parent: </b></td>
+      <td><a href="#refobj1248">controller_Harness_PedalPosition/ThrottlePedalSafety </a></td></tr>
+</table>
+<br/>
+
+
+<table >
+
+  <tr> 
+     <td  width="200" align="left"> <b>Metric</b> </td>
+     <td  width="200" align="left"> <b>Coverage</b> </td>
+</tr>
+
+  <tr> 
+     <td  align="left"> Cyclomatic Complexity </td>
+     <td  align="left"> 0 </td>
 </tr>
 
   <tr> 
@@ -412,19 +611,19 @@ To Constant4</a></font> </td>
 
   <tr> 
      <td  align="left"> &#160; &#160; &#160;  </td>
-     <td  align="center"> 1301/1301 </td>
+     <td  align="center"> 2602/2602<a href="#ref_trace_U1.1"><div  title="Executed in test(s): &#13;U1.1,U1.2"/><small>U1.1</small></a> </td>
 </tr>
 
 </table>
 </td> </tr> </table>
 <br/>
-<a name="refobj1860">  </a><h4> &#160; &#160;Switch block "<a href="matlab: cvdisplay('controller_Harness_PedalPosition:1:172');">Switch</a>"</h4>
+<a name="refobj1270">  </a><h4> &#160; &#160;Constant block "<a href="matlab: cvdisplay('controller_Harness_PedalPosition:1:173');">Constant</a>"</h4>
 <table> <tr> <td width="25"> </td> <td>
-<table><tr> <td> <a href="matlab: cvi.FilterExplorer.FilterExplorer.reportRuleCallback('', [], 459,  '', 'controller_Harness_PedalPosition', '', 'add', 'controller:172');">Justify or Exclude</a> </td></tr>
+<table><tr> <td> <a href="matlab: cvi.FilterExplorer.FilterExplorer.reportRuleCallback('', [], 0,  '', 'controller_Harness_PedalPosition', '', 'add', 'controller_Harness_PedalPosition:1:173');">Justify or Exclude</a> </td></tr>
 </table>
 <table>
   <tr><td width="150"><b>Parent: </b></td>
-      <td><a href="#refobj1847">controller_Harness_PedalPosition/ThrottlePedalSafety </a></td></tr>
+      <td><a href="#refobj1248">controller_Harness_PedalPosition/ThrottlePedalSafety </a></td></tr>
 </table>
 <br/>
 
@@ -434,6 +633,11 @@ To Constant4</a></font> </td>
   <tr> 
      <td  width="200" align="left"> <b>Metric</b> </td>
      <td  width="200" align="left"> <b>Coverage</b> </td>
+</tr>
+
+  <tr> 
+     <td  align="left"> Cyclomatic Complexity </td>
+     <td  align="left"> 0 </td>
 </tr>
 
   <tr> 
@@ -453,101 +657,19 @@ To Constant4</a></font> </td>
 
   <tr> 
      <td  align="left"> &#160; &#160; &#160;  </td>
-     <td  align="center"> 1301/1301 </td>
+     <td  align="center"> 2/2<a href="#ref_trace_U1.1"><div  title="Executed in test(s): &#13;U1.1,U1.2"/><small>U1.1</small></a> </td>
 </tr>
 
 </table>
 </td> </tr> </table>
 <br/>
-<a name="refobj1862">  </a><h4> &#160; &#160;Sum block "<a href="matlab: cvdisplay('controller_Harness_PedalPosition:1:170');">Subtract</a>"</h4>
+<a name="refobj1249">  </a><h3>2. SubSystem block "<a href="matlab: cvdisplay('controller_Harness_PedalPosition:1:178');">Compare To Constant</a>"</h3>
 <table> <tr> <td width="25"> </td> <td>
-<table><tr> <td> <a href="matlab: cvi.FilterExplorer.FilterExplorer.reportRuleCallback('', [], 459,  '', 'controller_Harness_PedalPosition', '', 'add', 'controller:170');">Justify or Exclude</a> </td></tr>
+<table><tr> <td> <a href="matlab: cvi.FilterExplorer.FilterExplorer.reportRuleCallback('', [], 0,  '', 'controller_Harness_PedalPosition', '', 'add', 'controller_Harness_PedalPosition:1:178');">Justify or Exclude</a> </td></tr>
 </table>
 <table>
   <tr><td width="150"><b>Parent: </b></td>
-      <td><a href="#refobj1847">controller_Harness_PedalPosition/ThrottlePedalSafety </a></td></tr>
-</table>
-<br/>
-
-
-<table >
-
-  <tr> 
-     <td  width="200" align="left"> <b>Metric</b> </td>
-     <td  width="200" align="left"> <b>Coverage</b> </td>
-</tr>
-
-  <tr> 
-     <td  align="left"> Execution </td>
-     <td  align="left"> 100% (1/1) objective outcomes </td>
-</tr>
-
-</table>
-&#160; <b>Execution analyzed</b><br/>
-
-<table border="1" cellpadding="5">
-
-  <tr> 
-     <td  width="380" align="left"> &#160; Block executed&#160;  </td>
-     <td  width="60" align="center"> 100% </td>
-</tr>
-
-  <tr> 
-     <td  align="left"> &#160; &#160; &#160;  </td>
-     <td  align="center"> 1301/1301 </td>
-</tr>
-
-</table>
-</td> </tr> </table>
-<br/>
-<a name="refobj1869">  </a><h4> &#160; &#160;Constant block "<a href="matlab: cvdisplay('controller_Harness_PedalPosition:1:173');">Constant</a>"</h4>
-<table> <tr> <td width="25"> </td> <td>
-<table><tr> <td> <a href="matlab: cvi.FilterExplorer.FilterExplorer.reportRuleCallback('', [], 459,  '', 'controller_Harness_PedalPosition', '', 'add', 'controller:173');">Justify or Exclude</a> </td></tr>
-</table>
-<table>
-  <tr><td width="150"><b>Parent: </b></td>
-      <td><a href="#refobj1847">controller_Harness_PedalPosition/ThrottlePedalSafety </a></td></tr>
-</table>
-<br/>
-
-
-<table >
-
-  <tr> 
-     <td  width="200" align="left"> <b>Metric</b> </td>
-     <td  width="200" align="left"> <b>Coverage</b> </td>
-</tr>
-
-  <tr> 
-     <td  align="left"> Execution </td>
-     <td  align="left"> 100% (1/1) objective outcomes </td>
-</tr>
-
-</table>
-&#160; <b>Execution analyzed</b><br/>
-
-<table border="1" cellpadding="5">
-
-  <tr> 
-     <td  width="380" align="left"> &#160; Block executed&#160;  </td>
-     <td  width="60" align="center"> 100% </td>
-</tr>
-
-  <tr> 
-     <td  align="left"> &#160; &#160; &#160;  </td>
-     <td  align="center"> 1/1 </td>
-</tr>
-
-</table>
-</td> </tr> </table>
-<br/>
-<a name="refobj1848">  </a><h3>2. SubSystem block "<a href="matlab: cvdisplay('controller_Harness_PedalPosition:1:178');">Compare To Constant</a>"</h3>
-<table> <tr> <td width="25"> </td> <td>
-<table><tr> <td> <a href="matlab: cvi.FilterExplorer.FilterExplorer.reportRuleCallback('', [], 459,  '', 'controller_Harness_PedalPosition', '', 'add', 'controller:178');">Justify or Exclude</a> </td></tr>
-</table>
-<table>
-  <tr><td width="150"><b>Parent: </b></td>
-      <td><a href="#refobj1847">controller_Harness_PedalPosition/ThrottlePedalSafety </a></td></tr>
+      <td><a href="#refobj1248">controller_Harness_PedalPosition/ThrottlePedalSafety </a></td></tr>
 </table>
 <br/>
 
@@ -561,6 +683,12 @@ To Constant4</a></font> </td>
 </tr>
 
   <tr> 
+     <td  align="left"> Cyclomatic Complexity </td>
+     <td  align="left"> 0 </td>
+     <td  align="left"> 0 </td>
+</tr>
+
+  <tr> 
      <td  align="left"> Execution </td>
      <td  align="left"> NA </td>
      <td  align="left"> 100% (1/1) objective outcomes </td>
@@ -569,13 +697,13 @@ To Constant4</a></font> </td>
 </table>
 </td> </tr> </table>
 <br/>
-<a name="refobj1864">  </a><h4> &#160; &#160;RelationalOperator block "<a href="matlab: cvdisplay('controller_Harness_PedalPosition:1:178:2');">Compare</a>"</h4>
+<a name="refobj1265">  </a><h4> &#160; &#160;RelationalOperator block "<a href="matlab: cvdisplay('controller_Harness_PedalPosition:1:178:2');">Compare</a>"</h4>
 <table> <tr> <td width="25"> </td> <td>
-<table><tr> <td> <a href="matlab: cvi.FilterExplorer.FilterExplorer.reportRuleCallback('', [], 459,  '', 'controller_Harness_PedalPosition', '', 'add', 'controller:178:2');">Justify or Exclude</a> </td></tr>
+<table><tr> <td> <a href="matlab: cvi.FilterExplorer.FilterExplorer.reportRuleCallback('', [], 0,  '', 'controller_Harness_PedalPosition', '', 'add', 'controller_Harness_PedalPosition:1:178:2');">Justify or Exclude</a> </td></tr>
 </table>
 <table>
   <tr><td width="150"><b>Parent: </b></td>
-      <td><a href="#refobj1848">controller_Harness_PedalPosition/ThrottlePedalSafety /Compare To Constant</a></td></tr>
+      <td><a href="#refobj1249">controller_Harness_PedalPosition/ThrottlePedalSafety /Compare To Constant</a></td></tr>
 </table>
 <br/>
 
@@ -585,6 +713,11 @@ To Constant4</a></font> </td>
   <tr> 
      <td  width="200" align="left"> <b>Metric</b> </td>
      <td  width="200" align="left"> <b>Coverage</b> </td>
+</tr>
+
+  <tr> 
+     <td  align="left"> Cyclomatic Complexity </td>
+     <td  align="left"> 0 </td>
 </tr>
 
   <tr> 
@@ -604,19 +737,19 @@ To Constant4</a></font> </td>
 
   <tr> 
      <td  align="left"> &#160; &#160; &#160;  </td>
-     <td  align="center"> 1301/1301 </td>
+     <td  align="center"> 2602/2602<a href="#ref_trace_U1.1"><div  title="Executed in test(s): &#13;U1.1,U1.2"/><small>U1.1</small></a> </td>
 </tr>
 
 </table>
 </td> </tr> </table>
 <br/>
-<a name="refobj1849">  </a><h3>3. SubSystem block "<a href="matlab: cvdisplay('controller_Harness_PedalPosition:1:179');">Compare To Constant1</a>"</h3>
+<a name="refobj1250">  </a><h3>3. SubSystem block "<a href="matlab: cvdisplay('controller_Harness_PedalPosition:1:179');">Compare To Constant1</a>"</h3>
 <table> <tr> <td width="25"> </td> <td>
-<table><tr> <td> <a href="matlab: cvi.FilterExplorer.FilterExplorer.reportRuleCallback('', [], 459,  '', 'controller_Harness_PedalPosition', '', 'add', 'controller:179');">Justify or Exclude</a> </td></tr>
+<table><tr> <td> <a href="matlab: cvi.FilterExplorer.FilterExplorer.reportRuleCallback('', [], 0,  '', 'controller_Harness_PedalPosition', '', 'add', 'controller_Harness_PedalPosition:1:179');">Justify or Exclude</a> </td></tr>
 </table>
 <table>
   <tr><td width="150"><b>Parent: </b></td>
-      <td><a href="#refobj1847">controller_Harness_PedalPosition/ThrottlePedalSafety </a></td></tr>
+      <td><a href="#refobj1248">controller_Harness_PedalPosition/ThrottlePedalSafety </a></td></tr>
 </table>
 <br/>
 
@@ -630,6 +763,12 @@ To Constant4</a></font> </td>
 </tr>
 
   <tr> 
+     <td  align="left"> Cyclomatic Complexity </td>
+     <td  align="left"> 0 </td>
+     <td  align="left"> 0 </td>
+</tr>
+
+  <tr> 
      <td  align="left"> Execution </td>
      <td  align="left"> NA </td>
      <td  align="left"> 100% (1/1) objective outcomes </td>
@@ -638,13 +777,13 @@ To Constant4</a></font> </td>
 </table>
 </td> </tr> </table>
 <br/>
-<a name="refobj1865">  </a><h4> &#160; &#160;RelationalOperator block "<a href="matlab: cvdisplay('controller_Harness_PedalPosition:1:179:2');">Compare</a>"</h4>
+<a name="refobj1266">  </a><h4> &#160; &#160;RelationalOperator block "<a href="matlab: cvdisplay('controller_Harness_PedalPosition:1:179:2');">Compare</a>"</h4>
 <table> <tr> <td width="25"> </td> <td>
-<table><tr> <td> <a href="matlab: cvi.FilterExplorer.FilterExplorer.reportRuleCallback('', [], 459,  '', 'controller_Harness_PedalPosition', '', 'add', 'controller:179:2');">Justify or Exclude</a> </td></tr>
+<table><tr> <td> <a href="matlab: cvi.FilterExplorer.FilterExplorer.reportRuleCallback('', [], 0,  '', 'controller_Harness_PedalPosition', '', 'add', 'controller_Harness_PedalPosition:1:179:2');">Justify or Exclude</a> </td></tr>
 </table>
 <table>
   <tr><td width="150"><b>Parent: </b></td>
-      <td><a href="#refobj1849">controller_Harness_PedalPosition/ThrottlePedalSafety /Compare To Constant1</a></td></tr>
+      <td><a href="#refobj1250">controller_Harness_PedalPosition/ThrottlePedalSafety /Compare To Constant1</a></td></tr>
 </table>
 <br/>
 
@@ -654,6 +793,11 @@ To Constant4</a></font> </td>
   <tr> 
      <td  width="200" align="left"> <b>Metric</b> </td>
      <td  width="200" align="left"> <b>Coverage</b> </td>
+</tr>
+
+  <tr> 
+     <td  align="left"> Cyclomatic Complexity </td>
+     <td  align="left"> 0 </td>
 </tr>
 
   <tr> 
@@ -673,19 +817,19 @@ To Constant4</a></font> </td>
 
   <tr> 
      <td  align="left"> &#160; &#160; &#160;  </td>
-     <td  align="center"> 1301/1301 </td>
+     <td  align="center"> 2602/2602<a href="#ref_trace_U1.1"><div  title="Executed in test(s): &#13;U1.1,U1.2"/><small>U1.1</small></a> </td>
 </tr>
 
 </table>
 </td> </tr> </table>
 <br/>
-<a name="refobj1850">  </a><h3>4. SubSystem block "<a href="matlab: cvdisplay('controller_Harness_PedalPosition:1:181');">Compare To Constant2</a>"</h3>
+<a name="refobj1251">  </a><h3>4. SubSystem block "<a href="matlab: cvdisplay('controller_Harness_PedalPosition:1:181');">Compare To Constant2</a>"</h3>
 <table> <tr> <td width="25"> </td> <td>
-<table><tr> <td> <a href="matlab: cvi.FilterExplorer.FilterExplorer.reportRuleCallback('', [], 459,  '', 'controller_Harness_PedalPosition', '', 'add', 'controller:181');">Justify or Exclude</a> </td></tr>
+<table><tr> <td> <a href="matlab: cvi.FilterExplorer.FilterExplorer.reportRuleCallback('', [], 0,  '', 'controller_Harness_PedalPosition', '', 'add', 'controller_Harness_PedalPosition:1:181');">Justify or Exclude</a> </td></tr>
 </table>
 <table>
   <tr><td width="150"><b>Parent: </b></td>
-      <td><a href="#refobj1847">controller_Harness_PedalPosition/ThrottlePedalSafety </a></td></tr>
+      <td><a href="#refobj1248">controller_Harness_PedalPosition/ThrottlePedalSafety </a></td></tr>
 </table>
 <br/>
 
@@ -699,6 +843,12 @@ To Constant4</a></font> </td>
 </tr>
 
   <tr> 
+     <td  align="left"> Cyclomatic Complexity </td>
+     <td  align="left"> 0 </td>
+     <td  align="left"> 0 </td>
+</tr>
+
+  <tr> 
      <td  align="left"> Execution </td>
      <td  align="left"> NA </td>
      <td  align="left"> 100% (1/1) objective outcomes </td>
@@ -707,13 +857,13 @@ To Constant4</a></font> </td>
 </table>
 </td> </tr> </table>
 <br/>
-<a name="refobj1866">  </a><h4> &#160; &#160;RelationalOperator block "<a href="matlab: cvdisplay('controller_Harness_PedalPosition:1:181:2');">Compare</a>"</h4>
+<a name="refobj1267">  </a><h4> &#160; &#160;RelationalOperator block "<a href="matlab: cvdisplay('controller_Harness_PedalPosition:1:181:2');">Compare</a>"</h4>
 <table> <tr> <td width="25"> </td> <td>
-<table><tr> <td> <a href="matlab: cvi.FilterExplorer.FilterExplorer.reportRuleCallback('', [], 459,  '', 'controller_Harness_PedalPosition', '', 'add', 'controller:181:2');">Justify or Exclude</a> </td></tr>
+<table><tr> <td> <a href="matlab: cvi.FilterExplorer.FilterExplorer.reportRuleCallback('', [], 0,  '', 'controller_Harness_PedalPosition', '', 'add', 'controller_Harness_PedalPosition:1:181:2');">Justify or Exclude</a> </td></tr>
 </table>
 <table>
   <tr><td width="150"><b>Parent: </b></td>
-      <td><a href="#refobj1850">controller_Harness_PedalPosition/ThrottlePedalSafety /Compare To Constant2</a></td></tr>
+      <td><a href="#refobj1251">controller_Harness_PedalPosition/ThrottlePedalSafety /Compare To Constant2</a></td></tr>
 </table>
 <br/>
 
@@ -723,6 +873,11 @@ To Constant4</a></font> </td>
   <tr> 
      <td  width="200" align="left"> <b>Metric</b> </td>
      <td  width="200" align="left"> <b>Coverage</b> </td>
+</tr>
+
+  <tr> 
+     <td  align="left"> Cyclomatic Complexity </td>
+     <td  align="left"> 0 </td>
 </tr>
 
   <tr> 
@@ -742,19 +897,19 @@ To Constant4</a></font> </td>
 
   <tr> 
      <td  align="left"> &#160; &#160; &#160;  </td>
-     <td  align="center"> 1301/1301 </td>
+     <td  align="center"> 2602/2602<a href="#ref_trace_U1.1"><div  title="Executed in test(s): &#13;U1.1,U1.2"/><small>U1.1</small></a> </td>
 </tr>
 
 </table>
 </td> </tr> </table>
 <br/>
-<a name="refobj1851">  </a><h3>5. SubSystem block "<a href="matlab: cvdisplay('controller_Harness_PedalPosition:1:182');">Compare To Constant3</a>"</h3>
+<a name="refobj1252">  </a><h3>5. SubSystem block "<a href="matlab: cvdisplay('controller_Harness_PedalPosition:1:182');">Compare To Constant3</a>"</h3>
 <table> <tr> <td width="25"> </td> <td>
-<table><tr> <td> <a href="matlab: cvi.FilterExplorer.FilterExplorer.reportRuleCallback('', [], 459,  '', 'controller_Harness_PedalPosition', '', 'add', 'controller:182');">Justify or Exclude</a> </td></tr>
+<table><tr> <td> <a href="matlab: cvi.FilterExplorer.FilterExplorer.reportRuleCallback('', [], 0,  '', 'controller_Harness_PedalPosition', '', 'add', 'controller_Harness_PedalPosition:1:182');">Justify or Exclude</a> </td></tr>
 </table>
 <table>
   <tr><td width="150"><b>Parent: </b></td>
-      <td><a href="#refobj1847">controller_Harness_PedalPosition/ThrottlePedalSafety </a></td></tr>
+      <td><a href="#refobj1248">controller_Harness_PedalPosition/ThrottlePedalSafety </a></td></tr>
 </table>
 <br/>
 
@@ -768,6 +923,12 @@ To Constant4</a></font> </td>
 </tr>
 
   <tr> 
+     <td  align="left"> Cyclomatic Complexity </td>
+     <td  align="left"> 0 </td>
+     <td  align="left"> 0 </td>
+</tr>
+
+  <tr> 
      <td  align="left"> Execution </td>
      <td  align="left"> NA </td>
      <td  align="left"> 100% (1/1) objective outcomes </td>
@@ -776,13 +937,13 @@ To Constant4</a></font> </td>
 </table>
 </td> </tr> </table>
 <br/>
-<a name="refobj1867">  </a><h4> &#160; &#160;RelationalOperator block "<a href="matlab: cvdisplay('controller_Harness_PedalPosition:1:182:2');">Compare</a>"</h4>
+<a name="refobj1268">  </a><h4> &#160; &#160;RelationalOperator block "<a href="matlab: cvdisplay('controller_Harness_PedalPosition:1:182:2');">Compare</a>"</h4>
 <table> <tr> <td width="25"> </td> <td>
-<table><tr> <td> <a href="matlab: cvi.FilterExplorer.FilterExplorer.reportRuleCallback('', [], 459,  '', 'controller_Harness_PedalPosition', '', 'add', 'controller:182:2');">Justify or Exclude</a> </td></tr>
+<table><tr> <td> <a href="matlab: cvi.FilterExplorer.FilterExplorer.reportRuleCallback('', [], 0,  '', 'controller_Harness_PedalPosition', '', 'add', 'controller_Harness_PedalPosition:1:182:2');">Justify or Exclude</a> </td></tr>
 </table>
 <table>
   <tr><td width="150"><b>Parent: </b></td>
-      <td><a href="#refobj1851">controller_Harness_PedalPosition/ThrottlePedalSafety /Compare To Constant3</a></td></tr>
+      <td><a href="#refobj1252">controller_Harness_PedalPosition/ThrottlePedalSafety /Compare To Constant3</a></td></tr>
 </table>
 <br/>
 
@@ -792,6 +953,11 @@ To Constant4</a></font> </td>
   <tr> 
      <td  width="200" align="left"> <b>Metric</b> </td>
      <td  width="200" align="left"> <b>Coverage</b> </td>
+</tr>
+
+  <tr> 
+     <td  align="left"> Cyclomatic Complexity </td>
+     <td  align="left"> 0 </td>
 </tr>
 
   <tr> 
@@ -811,19 +977,19 @@ To Constant4</a></font> </td>
 
   <tr> 
      <td  align="left"> &#160; &#160; &#160;  </td>
-     <td  align="center"> 1301/1301 </td>
+     <td  align="center"> 2602/2602<a href="#ref_trace_U1.1"><div  title="Executed in test(s): &#13;U1.1,U1.2"/><small>U1.1</small></a> </td>
 </tr>
 
 </table>
 </td> </tr> </table>
 <br/>
-<a name="refobj1852">  </a><h3>6. SubSystem block "<a href="matlab: cvdisplay('controller_Harness_PedalPosition:1:184');">Compare To Constant4</a>"</h3>
+<a name="refobj1253">  </a><h3>6. SubSystem block "<a href="matlab: cvdisplay('controller_Harness_PedalPosition:1:184');">Compare To Constant4</a>"</h3>
 <table> <tr> <td width="25"> </td> <td>
-<table><tr> <td> <a href="matlab: cvi.FilterExplorer.FilterExplorer.reportRuleCallback('', [], 459,  '', 'controller_Harness_PedalPosition', '', 'add', 'controller:184');">Justify or Exclude</a> </td></tr>
+<table><tr> <td> <a href="matlab: cvi.FilterExplorer.FilterExplorer.reportRuleCallback('', [], 0,  '', 'controller_Harness_PedalPosition', '', 'add', 'controller_Harness_PedalPosition:1:184');">Justify or Exclude</a> </td></tr>
 </table>
 <table>
   <tr><td width="150"><b>Parent: </b></td>
-      <td><a href="#refobj1847">controller_Harness_PedalPosition/ThrottlePedalSafety </a></td></tr>
+      <td><a href="#refobj1248">controller_Harness_PedalPosition/ThrottlePedalSafety </a></td></tr>
 </table>
 <br/>
 
@@ -837,6 +1003,12 @@ To Constant4</a></font> </td>
 </tr>
 
   <tr> 
+     <td  align="left"> Cyclomatic Complexity </td>
+     <td  align="left"> 0 </td>
+     <td  align="left"> 0 </td>
+</tr>
+
+  <tr> 
      <td  align="left"> Execution </td>
      <td  align="left"> NA </td>
      <td  align="left"> 100% (1/1) objective outcomes </td>
@@ -845,13 +1017,13 @@ To Constant4</a></font> </td>
 </table>
 </td> </tr> </table>
 <br/>
-<a name="refobj1868">  </a><h4> &#160; &#160;RelationalOperator block "<a href="matlab: cvdisplay('controller_Harness_PedalPosition:1:184:2');">Compare</a>"</h4>
+<a name="refobj1269">  </a><h4> &#160; &#160;RelationalOperator block "<a href="matlab: cvdisplay('controller_Harness_PedalPosition:1:184:2');">Compare</a>"</h4>
 <table> <tr> <td width="25"> </td> <td>
-<table><tr> <td> <a href="matlab: cvi.FilterExplorer.FilterExplorer.reportRuleCallback('', [], 459,  '', 'controller_Harness_PedalPosition', '', 'add', 'controller:184:2');">Justify or Exclude</a> </td></tr>
+<table><tr> <td> <a href="matlab: cvi.FilterExplorer.FilterExplorer.reportRuleCallback('', [], 0,  '', 'controller_Harness_PedalPosition', '', 'add', 'controller_Harness_PedalPosition:1:184:2');">Justify or Exclude</a> </td></tr>
 </table>
 <table>
   <tr><td width="150"><b>Parent: </b></td>
-      <td><a href="#refobj1852">controller_Harness_PedalPosition/ThrottlePedalSafety /Compare To Constant4</a></td></tr>
+      <td><a href="#refobj1253">controller_Harness_PedalPosition/ThrottlePedalSafety /Compare To Constant4</a></td></tr>
 </table>
 <br/>
 
@@ -861,6 +1033,11 @@ To Constant4</a></font> </td>
   <tr> 
      <td  width="200" align="left"> <b>Metric</b> </td>
      <td  width="200" align="left"> <b>Coverage</b> </td>
+</tr>
+
+  <tr> 
+     <td  align="left"> Cyclomatic Complexity </td>
+     <td  align="left"> 0 </td>
 </tr>
 
   <tr> 
@@ -880,7 +1057,7 @@ To Constant4</a></font> </td>
 
   <tr> 
      <td  align="left"> &#160; &#160; &#160;  </td>
-     <td  align="center"> 1301/1301 </td>
+     <td  align="center"> 2602/2602<a href="#ref_trace_U1.1"><div  title="Executed in test(s): &#13;U1.1,U1.2"/><small>U1.1</small></a> </td>
 </tr>
 
 </table>

@@ -5,8 +5,8 @@
     <P Name="Description"/>
     <P Name="CreatedBy">Matteo</P>
     <P Name="CreatedOn">Thu Jun 20 17:49:38 2024</P>
-    <P Name="ModifiedBy">Matteo</P>
-    <P Name="LastSaved">Thu Jun 20 18:05:58 2024</P>
+    <P Name="ModifiedBy">dadog</P>
+    <P Name="LastSaved">Fri Jun 21 12:58:01 2024</P>
     <P Name="Owner">158</P>
     <P Name="OwnerType">SS_HARNESS</P>
     <P Name="OwnerPath">ThrottlePedalSafety </P>
@@ -43,8 +43,8 @@
     <P Name="Description"/>
     <P Name="CreatedBy">Matteo</P>
     <P Name="CreatedOn">Thu Jun 20 18:06:45 2024</P>
-    <P Name="ModifiedBy">Matteo</P>
-    <P Name="LastSaved">Thu Jun 20 18:47:03 2024</P>
+    <P Name="ModifiedBy">dadog</P>
+    <P Name="LastSaved">Fri Jun 21 13:30:42 2024</P>
     <P Name="Owner">186</P>
     <P Name="OwnerType">SS_HARNESS</P>
     <P Name="OwnerPath">Subsystem</P>
@@ -81,8 +81,8 @@
     <P Name="Description"/>
     <P Name="CreatedBy">Matteo</P>
     <P Name="CreatedOn">Thu Jun 20 18:30:38 2024</P>
-    <P Name="ModifiedBy">Matteo</P>
-    <P Name="LastSaved">Thu Jun 20 18:39:06 2024</P>
+    <P Name="ModifiedBy">dadog</P>
+    <P Name="LastSaved">Fri Jun 21 13:34:49 2024</P>
     <P Name="Owner">190</P>
     <P Name="OwnerType">SS_HARNESS</P>
     <P Name="OwnerPath">Subsystem1</P>
@@ -119,8 +119,8 @@
     <P Name="Description"/>
     <P Name="CreatedBy">Matteo</P>
     <P Name="CreatedOn">Thu Jun 20 18:39:28 2024</P>
-    <P Name="ModifiedBy">Matteo</P>
-    <P Name="LastSaved">Thu Jun 20 18:45:45 2024</P>
+    <P Name="ModifiedBy">dadog</P>
+    <P Name="LastSaved">Fri Jun 21 13:40:13 2024</P>
     <P Name="Owner">194</P>
     <P Name="OwnerType">SS_HARNESS</P>
     <P Name="OwnerPath">Subsystem2</P>
@@ -148,8 +148,7 @@
     <P Name="CustomSourcePath"/>
     <P Name="CustomSinkPath"/>
     <P Name="BlockSIDs">9|27|0|0|0|0|0</P>
-    <P Name="OpenGraphs">||||controller_Harness_Warning||controller_Harness_Warning/Repeating
-Sequence2</P>
+    <P Name="OpenGraphs">||||controller_Harness_Warning</P>
     <P Name="ExistingBuildFolder"/>
     <P Name="FunctionInterfaceName"/>
   </Harness>
@@ -158,8 +157,8 @@ Sequence2</P>
     <P Name="Description"/>
     <P Name="CreatedBy">Matteo</P>
     <P Name="CreatedOn">Thu Jun 20 18:50:56 2024</P>
-    <P Name="ModifiedBy">Matteo</P>
-    <P Name="LastSaved">Thu Jun 20 19:09:49 2024</P>
+    <P Name="ModifiedBy">dadog</P>
+    <P Name="LastSaved">Fri Jun 21 14:03:18 2024</P>
     <P Name="Owner">bd</P>
     <P Name="OwnerType">BD_HARNESS</P>
     <P Name="OwnerPath">.</P>
